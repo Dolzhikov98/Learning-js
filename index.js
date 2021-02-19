@@ -36,7 +36,6 @@ window.onload = () => {
                     console.log(item.innerHTML)
                     console.log(toString(step))
                     item.style.backgroundColor = 'red'
-                    item.style.color = '#1164B4'
                     step++
                 }
             })
