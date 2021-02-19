@@ -36,7 +36,7 @@ window.onload = () => {
                     console.log(item.innerHTML)
                     console.log(toString(step))
                     item.style.backgroundColor = 'red'
-                    item.style.color = 'white'
+                    item.style.color = '#1164B4'
                     step++
                 }
             })
@@ -77,7 +77,7 @@ window.onload = () => {
             addNumber()
             item.style.fontSize = Math.floor(Math.random() * 26) + 14 + 'px'
             item.style.backgroundColor = 'white'
-            item.style.color = arr_color[Math.floor(Math.random() * 9)]
+            item.style.color = arr_color[Math.floor(Math.random() * 10) + 1]
         }
         process_game()
         timer()
